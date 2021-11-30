@@ -1,8 +1,8 @@
 import "./T2.css";
 import { demoProfileData } from "../../../Helpers";
-import EachEdu from './components/EachEdu';
-import EachExperience from './components/EachExperience';
-import EachSkill from './components/EachSkill';
+import EachEdu from '../T1/components/EachEdu';
+import EachExperience from '../T1/components/EachExperience';
+import EachSkill from '../T1/components/EachSkill';
 
 const T2 = () => {
     return(

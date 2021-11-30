@@ -13,14 +13,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  transform: scale(0.5);
 }
 .container {
   position: relative;
   width: 100%;
-  max-width: 600px;
-  max-height: 1500px;
+  
   background-color: #fff;
   box-shadow: 0px 35px 55px rgba(0, 0, 0, 0.1);
 }
@@ -66,11 +63,12 @@
 }
 .links ul {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  /* grid-template-columns: repeat(5, 1fr); */
 }
 .links ul li {
   list-style: none;
   cursor: pointer;
+  text-align: center;
 }
 .links ul li ion-icon {
   width: 35px;
